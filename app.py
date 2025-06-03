@@ -15,6 +15,7 @@ def Details():
     sub = st.sidebar.button('Submit')
     if sub:
         return True
+    return False
 
 if Details:
     order = st.selectbox('You Pizza:',['','Panner Pizza','Veggie Pizza','Chicken Pizza','Capsicum Pizza'])
